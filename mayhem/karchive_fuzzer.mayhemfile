@@ -1,0 +1,4 @@
+project: PROJECT
+target: karchive_fuzzer
+cmds:
+- cmd: /out/karchive_fuzzer
