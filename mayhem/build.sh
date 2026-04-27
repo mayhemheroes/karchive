@@ -47,7 +47,7 @@ cp -f libbz2.a /usr/local/lib
 cd $SRC
 cd xz
 ./autogen.sh
-./configure --enable-static --disable-debug --disable-shared --disable-xz --disable-xzdec --disable-lzmainfo
+./configure --enable-static --disable-debug --disable-shared --disable-xz --disable-xzdec --disable-lzmainfo --disable-nls
 make install -j$(nproc)
 
 # Build extra-cmake-modules
