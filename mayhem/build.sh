@@ -46,7 +46,7 @@ cp -f libbz2.a /usr/local/lib
 # Build xz
 cd $SRC
 cd xz
-./autogen.sh
+./autogen.sh --no-doxygen
 ./configure --enable-static --disable-debug --disable-shared --disable-xz --disable-xzdec --disable-lzmainfo --disable-nls
 make install -j$(nproc)
 
